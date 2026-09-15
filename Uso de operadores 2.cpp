@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int A = 5;
+    int B = 10;
+    int C;
+    C = (A++ + ++B) * 2;
+    cout << "A = " << A << endl;
+    cout << "B = " << B << endl;
+    cout << "C = " << C << endl;
+}
